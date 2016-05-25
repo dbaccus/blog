@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
   def show
     @article = Article.find(params[:id])
-  end
+  end #testing git
 
   def new
   end
